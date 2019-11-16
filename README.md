@@ -1,6 +1,8 @@
 # vue-task
 
-## Project setup
+## Project setup 2 ways :
+
+## * 1
 ```
 npm install
 ```
@@ -20,3 +22,13 @@ npm run build
 npm run lint
 ```
 
+## * 2 
+
+### runs with docker file
+
+```
+docker-compose up -d --build
+```
+
+#### note :
+##### the project will run on port: 3000
